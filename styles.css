@@ -1,0 +1,63 @@
+.bg-image {
+    background-image: url('./assets/pexels-photo-1552242.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+#carouselSection .carousel-item img {
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+
+/* Custom CSS for overriding Bootstrap theme colors */
+
+/* Override Bootstrap's default primary color */
+:root {
+    --bg-primary: #ff6347; /* Custom primary color */
+}
+
+/* Override Bootstrap's default background color */
+body {
+    background-color: #f8f9fa; /* Custom background color */
+}
+
+/* Override Bootstrap's default text color */
+.text-primary {
+    color: var(--bs-primary) !important; /* Use custom primary color for text */
+}
+
+/* Additional custom styles */
+.custom-heading {
+    color: var(--bs-primary); /* Use custom primary color for headings */
+}
+
+.custom-button {
+    background-color: var(--bs-primary); /* Use custom primary color for buttons */
+    border-color: var(--bs-primary);
+}
+
+/* Customize navbar background color */
+.navbar {
+    background-color: var(--bs-primary);
+}
+
+/* Customize navbar text color */
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White color for navbar links */
+}
+
+/* Customize footer background color */
+footer {
+    background-color: var(--bs-primary);
+}
+
+/* Customize footer text color */
+footer p {
+    color: #ffffff; /* White color for footer text */
+}

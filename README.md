@@ -1,4 +1,4 @@
-Lab 10 - Bootstrap
+Gym Website - Bootstrap
 
 The project, titled "Office Gym," is a conceptual fitness facility aimed at the changing the meaning of the saying "going to the office"
 
@@ -14,6 +14,4 @@ Satirical Tone: The project adopts a satirical approach to highlight the humorou
 
 Overall, "Office Gym" seeks to re imagine the traditional office environment by introducing innovative solutions for maintaining a healthy lifestyle amid professional responsibilities.
 
-Student ID:
-n00403573
 Paul
